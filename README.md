@@ -2,6 +2,10 @@
 
 Ray tracing mod for Quake 4. Intercepts OpenGL calls, extracts geometry, and re-renders it with DXR in real time.
 
+| In-game (OpenGL) | Q4RTX (DXR) |
+|---|---|
+| ![ingame](ingame.png) | ![rtx](rtx.png) |
+
 ## How it works
 
 Quake 4 is 32-bit and uses OpenGL. DXR needs 64-bit D3D12. So this runs as two processes:
